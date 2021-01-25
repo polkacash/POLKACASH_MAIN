@@ -1,0 +1,2198 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/Boardroom.sol": {
+      "lastModificationDate": 1611536093639,
+      "contentHash": "3da269cf3fcd1ef5592e67c6d54e4a3b",
+      "sourceName": "contracts/Boardroom.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "./lib/Safe112.sol",
+        "./owner/Operator.sol",
+        "./utils/ContractGuard.sol",
+        "./interfaces/IPokaAsset.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Boardroom",
+        "ShareWrapper"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1611539199064,
+      "contentHash": "95e76adf687e1a31a4b8ece4e9bb757a",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/node_modules/@openzeppelin/contracts/token/ERC20/SafeERC20.sol": {
+      "lastModificationDate": 1611539199369,
+      "contentHash": "9ad439345c515e1367ef104675b36e7b",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "../../math/SafeMath.sol",
+        "../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/lib/Safe112.sol": {
+      "lastModificationDate": 1611536093638,
+      "contentHash": "6ae6b108945ee8d7ad9122c1a9e47426",
+      "sourceName": "contracts/lib/Safe112.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Safe112"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/owner/Operator.sol": {
+      "lastModificationDate": 1611536093630,
+      "contentHash": "36907234b15cf2d8947e9d8df033ca8a",
+      "sourceName": "contracts/owner/Operator.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/GSN/Context.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Operator"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/utils/ContractGuard.sol": {
+      "lastModificationDate": 1611536093635,
+      "contentHash": "971c0f0f191f551b38ead60d3282bc51",
+      "sourceName": "contracts/utils/ContractGuard.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "ContractGuard"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IPokaAsset.sol": {
+      "lastModificationDate": 1611536093640,
+      "contentHash": "b835e81d6e59792cee37440f96741562",
+      "sourceName": "contracts/interfaces/IPokaAsset.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "IPokaAsset"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/node_modules/@openzeppelin/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1611539199376,
+      "contentHash": "168f50d923a8f64094d8e761ca2e5fe6",
+      "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1611539198599,
+      "contentHash": "6b0498e1feb1d70edaf0ee5546e07a46",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.2"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/node_modules/@openzeppelin/contracts/GSN/Context.sol": {
+      "lastModificationDate": 1611539198641,
+      "contentHash": "af1b36323856d0d1550abc7f878a8208",
+      "sourceName": "@openzeppelin/contracts/GSN/Context.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1611539199231,
+      "contentHash": "140e80ebd07ed05e7fe907c531e6746f",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../GSN/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/test/Tester.sol": {
+      "lastModificationDate": 1611536093631,
+      "contentHash": "c4f8f37e5c07376289d2d45a1af3eea3",
+      "sourceName": "contracts/test/Tester.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "../Treasury.sol",
+        "../Boardroom.sol",
+        "../owner/Operator.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Tester"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/Treasury.sol": {
+      "lastModificationDate": 1611536093639,
+      "contentHash": "a27302a2363b6de7e914f52ae3f299cc",
+      "sourceName": "contracts/Treasury.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/Math.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "@openzeppelin/contracts/utils/ReentrancyGuard.sol",
+        "./lib/Babylonian.sol",
+        "./lib/FixedPoint.sol",
+        "./lib/Safe112.sol",
+        "./owner/Operator.sol",
+        "./utils/ContractGuard.sol",
+        "./interfaces/IPokaAsset.sol",
+        "./interfaces/IOracle.sol",
+        "./interfaces/IBoardroom.sol",
+        "./interfaces/IUniswapV2Router02.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Treasury"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/node_modules/@openzeppelin/contracts/math/Math.sol": {
+      "lastModificationDate": 1611539199187,
+      "contentHash": "d9d26ff981b836b0e3bb45940cd56321",
+      "sourceName": "@openzeppelin/contracts/math/Math.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/node_modules/@openzeppelin/contracts/utils/ReentrancyGuard.sol": {
+      "lastModificationDate": 1611539199323,
+      "contentHash": "d7295fcfe1e67e8b5e0099bdba192e19",
+      "sourceName": "@openzeppelin/contracts/utils/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/lib/Babylonian.sol": {
+      "lastModificationDate": 1611536093638,
+      "contentHash": "109cf89248f3dd5b153e8de9ac9285ef",
+      "sourceName": "contracts/lib/Babylonian.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Babylonian"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/lib/FixedPoint.sol": {
+      "lastModificationDate": 1611536093637,
+      "contentHash": "f55eadd0082827d2e0c0fa5f5bafc288",
+      "sourceName": "contracts/lib/FixedPoint.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Babylonian.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "FixedPoint"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IOracle.sol": {
+      "lastModificationDate": 1611536093640,
+      "contentHash": "c8bc53fd0a1ba3827ae3feea3819406a",
+      "sourceName": "contracts/interfaces/IOracle.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "IOracle"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IBoardroom.sol": {
+      "lastModificationDate": 1611536093640,
+      "contentHash": "3aede31d5cb8b34ee9bcc4f73c8a1b59",
+      "sourceName": "contracts/interfaces/IBoardroom.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "IBoardroom"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IUniswapV2Router02.sol": {
+      "lastModificationDate": 1611536093639,
+      "contentHash": "67e1058cbe3bf57b084708f328580f5c",
+      "sourceName": "contracts/interfaces/IUniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router02"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/test/MockBoardroom.sol": {
+      "lastModificationDate": 1611536093630,
+      "contentHash": "f1a6db52a13675c7dc5fbcdc54da3052",
+      "sourceName": "contracts/test/MockBoardroom.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "../owner/Operator.sol",
+        "../interfaces/IBoardroom.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "MockBoardroom"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/distribution/USDCPOSLPTokenSharePool.sol": {
+      "lastModificationDate": 1611536093633,
+      "contentHash": "77652293c8dc11bdf6cdbff16906f27c",
+      "sourceName": "contracts/distribution/USDCPOSLPTokenSharePool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/Math.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "../interfaces/IRewardDistributionRecipient.sol",
+        "../token/LPTokenWrapper.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "USDCPOSLPTokenSharePool"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IRewardDistributionRecipient.sol": {
+      "lastModificationDate": 1611536093640,
+      "contentHash": "193a9c4e8d6d7759aa184e79e2dc55b1",
+      "sourceName": "contracts/interfaces/IRewardDistributionRecipient.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "IRewardDistributionRecipient"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/token/LPTokenWrapper.sol": {
+      "lastModificationDate": 1611536093629,
+      "contentHash": "b647bdfa7ac3f63f46d789e7561cc60c",
+      "sourceName": "contracts/token/LPTokenWrapper.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "LPTokenWrapper"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/distributor/InitialShareDistributor.sol": {
+      "lastModificationDate": 1611536093637,
+      "contentHash": "f509420166d8377c28e1257cd303847e",
+      "sourceName": "contracts/distributor/InitialShareDistributor.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "../interfaces/IDistributor.sol",
+        "../interfaces/IRewardDistributionRecipient.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "InitialShareDistributor"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IDistributor.sol": {
+      "lastModificationDate": 1611536093641,
+      "contentHash": "762c3a0fb8036467fcf2c9a8a93177d6",
+      "sourceName": "contracts/interfaces/IDistributor.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "IDistributor"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/distribution/USDCPOCLPTokenSharePool.sol": {
+      "lastModificationDate": 1611536093634,
+      "contentHash": "14ff6a03c6992cc8453d7b56d8899bd5",
+      "sourceName": "contracts/distribution/USDCPOCLPTokenSharePool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/Math.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "../interfaces/IRewardDistributionRecipient.sol",
+        "../token/LPTokenWrapper.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "USDCPOCLPTokenSharePool"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/distribution/POCUSDXPool.sol": {
+      "lastModificationDate": 1611536093632,
+      "contentHash": "08839ea404192dd05a831d790849fdce",
+      "sourceName": "contracts/distribution/POCUSDXPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/Math.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "../interfaces/IRewardDistributionRecipient.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "POCUSDXPool",
+        "USDXWrapper"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/distributor/InitialCashDistributor.sol": {
+      "lastModificationDate": 1611546021299,
+      "contentHash": "fe99f13006e97b8651e39df3bac22341",
+      "sourceName": "contracts/distributor/InitialCashDistributor.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../distribution/POCUSDXPool.sol",
+        "../distribution/POCDAIPool.sol",
+        "../distribution/POCFRAXPool.sol",
+        "../distribution/POCUSDTPool.sol",
+        "../distribution/POCUSDCPool.sol",
+        "../distribution/POCESDPool.sol",
+        "../distribution/POCRAMPPool.sol",
+        "../distribution/POCUFTPool.sol",
+        "../distribution/POCINJPool.sol",
+        "../distribution/POCBNBPool.sol",
+        "../distribution/POCFIREPool.sol",
+        "../distribution/POCDUCKPool.sol",
+        "../interfaces/IDistributor.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "InitialCashDistributor"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/distribution/POCDAIPool.sol": {
+      "lastModificationDate": 1611536093635,
+      "contentHash": "1fe335c63eb45963559c094bbd51bc9b",
+      "sourceName": "contracts/distribution/POCDAIPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/Math.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "../interfaces/IRewardDistributionRecipient.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "DAIWrapper",
+        "POCDAIPool"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/distribution/POCFRAXPool.sol": {
+      "lastModificationDate": 1611536093634,
+      "contentHash": "19cbc552d013a5278aa7ce1838c464fe",
+      "sourceName": "contracts/distribution/POCFRAXPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/Math.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "../interfaces/IRewardDistributionRecipient.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "FRAXWrapper",
+        "POCFRAXPool"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/distribution/POCUSDTPool.sol": {
+      "lastModificationDate": 1611536093635,
+      "contentHash": "89bbca9e6e98a49c52883d80f2e7d2e1",
+      "sourceName": "contracts/distribution/POCUSDTPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/Math.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "../interfaces/IRewardDistributionRecipient.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "POCUSDTPool",
+        "USDTWrapper"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/distribution/POCUSDCPool.sol": {
+      "lastModificationDate": 1611536093634,
+      "contentHash": "e6408483707019b09c0007f56efa67ef",
+      "sourceName": "contracts/distribution/POCUSDCPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/Math.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "../interfaces/IRewardDistributionRecipient.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "POCUSDCPool",
+        "USDCWrapper"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/distribution/POCESDPool.sol": {
+      "lastModificationDate": 1611536093632,
+      "contentHash": "8577dc6fa948a57ddea0c5d34e100c76",
+      "sourceName": "contracts/distribution/POCESDPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/Math.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "../interfaces/IRewardDistributionRecipient.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "ESDWrapper",
+        "POCESDPool"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/distribution/POCRAMPPool.sol": {
+      "lastModificationDate": 1611536093634,
+      "contentHash": "b883d092d39b5e483f8a5472074086fe",
+      "sourceName": "contracts/distribution/POCRAMPPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/Math.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "../interfaces/IRewardDistributionRecipient.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "POCRAMPPool",
+        "RAMPWrapper"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/distribution/POCUFTPool.sol": {
+      "lastModificationDate": 1611545962039,
+      "contentHash": "c3ae27e6131b34a87335197bf8085a34",
+      "sourceName": "contracts/distribution/POCUFTPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/Math.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "../interfaces/IRewardDistributionRecipient.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "POCUFTPool",
+        "UFTWrapper"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/distribution/POCINJPool.sol": {
+      "lastModificationDate": 1611536093633,
+      "contentHash": "3fcbfcdec7dc3ba882dba83683dc6aa3",
+      "sourceName": "contracts/distribution/POCINJPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/Math.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "../interfaces/IRewardDistributionRecipient.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "INJWrapper",
+        "POCINJPool"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/distribution/POCBNBPool.sol": {
+      "lastModificationDate": 1611536093633,
+      "contentHash": "27bf5871b5170dcecda448bc05404c05",
+      "sourceName": "contracts/distribution/POCBNBPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/Math.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "../interfaces/IRewardDistributionRecipient.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "BNBWrapper",
+        "POCBNBPool"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/distribution/POCFIREPool.sol": {
+      "lastModificationDate": 1611536093632,
+      "contentHash": "a64814a6427d22464a08cb7d3ac904a4",
+      "sourceName": "contracts/distribution/POCFIREPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/Math.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "../interfaces/IRewardDistributionRecipient.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "FIREWrapper",
+        "POCFIREPool"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/distribution/POCDUCKPool.sol": {
+      "lastModificationDate": 1611536093633,
+      "contentHash": "042d9a9a7be61fbc51ad830de03a5f7e",
+      "sourceName": "contracts/distribution/POCDUCKPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/Math.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "../interfaces/IRewardDistributionRecipient.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "DUCKWrapper",
+        "POCDUCKPool"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/Distributor.sol": {
+      "lastModificationDate": 1611536093636,
+      "contentHash": "e1abeab197f43ffd84bb597c6ec0c8c6",
+      "sourceName": "contracts/Distributor.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IDistributor.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Distributor"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/Timelock.sol": {
+      "lastModificationDate": 1611536093636,
+      "contentHash": "82dda1fcc6ae449912dcad33a9beb190",
+      "sourceName": "contracts/Timelock.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Timelock"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/test/MockOracle.sol": {
+      "lastModificationDate": 1611536093631,
+      "contentHash": "ae64aed7ae1745dc3b44bd16b78f0c7a",
+      "sourceName": "contracts/test/MockOracle.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../interfaces/IOracle.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "MockOracle"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/Oracle.sol": {
+      "lastModificationDate": 1611536093636,
+      "contentHash": "a9fd4bfc982d4f6762f42c013963bcfd",
+      "sourceName": "contracts/Oracle.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "./lib/Babylonian.sol",
+        "./lib/FixedPoint.sol",
+        "./lib/UniswapV2Library.sol",
+        "./lib/UniswapV2OracleLibrary.sol",
+        "./interfaces/IUniswapV2Pair.sol",
+        "./interfaces/IUniswapV2Factory.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Oracle"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/lib/UniswapV2Library.sol": {
+      "lastModificationDate": 1611536093637,
+      "contentHash": "a9c8e0f5d8ad25fce9dff1a384970c0b",
+      "sourceName": "contracts/lib/UniswapV2Library.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../interfaces/IUniswapV2Pair.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "UniswapV2Library"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/lib/UniswapV2OracleLibrary.sol": {
+      "lastModificationDate": 1611536093637,
+      "contentHash": "0621f10576eee998ef4c7e44f09b1263",
+      "sourceName": "contracts/lib/UniswapV2OracleLibrary.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./FixedPoint.sol",
+        "../interfaces/IUniswapV2Pair.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "UniswapV2OracleLibrary"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IUniswapV2Pair.sol": {
+      "lastModificationDate": 1611536093641,
+      "contentHash": "5ede5efbd585e04e9e1bcf8e9a7d62ce",
+      "sourceName": "contracts/interfaces/IUniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Pair"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IUniswapV2Factory.sol": {
+      "lastModificationDate": 1611536093640,
+      "contentHash": "cd8c42afbd010fb99b67d98bf1e87f61",
+      "sourceName": "contracts/interfaces/IUniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Factory"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1611539198846,
+      "contentHash": "620e59a5f2a9fe517c47500d5a27af91",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../GSN/Context.sol",
+        "./IERC20.sol",
+        "../../math/SafeMath.sol",
+        "../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/node_modules/@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol": {
+      "lastModificationDate": 1611539198857,
+      "contentHash": "e7d9974ca7596843e7515c1b27a2d0a8",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../GSN/Context.sol",
+        "./ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "ERC20Burnable"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/test/MockToken.sol": {
+      "lastModificationDate": 1611539097890,
+      "contentHash": "421d328832f8a565d10d794510361fce",
+      "sourceName": "contracts/test/MockToken.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol",
+        "../owner/Operator.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "MockToken"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/Share.sol": {
+      "lastModificationDate": 1611539031953,
+      "contentHash": "a5733c0c25a92ab66d4efd07b3c8c6a3",
+      "sourceName": "contracts/Share.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./owner/Operator.sol",
+        "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Share"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/Cash.sol": {
+      "lastModificationDate": 1611539006171,
+      "contentHash": "04375ce26017f6d75bdb3a5ecc19a893",
+      "sourceName": "contracts/Cash.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol",
+        "./owner/Operator.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Cash"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/Bond.sol": {
+      "lastModificationDate": 1611539021284,
+      "contentHash": "d81eb94da3366218e629adc8c93897b1",
+      "sourceName": "contracts/Bond.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./owner/Operator.sol",
+        "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Bond"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IUniswapV2Callee.sol": {
+      "lastModificationDate": 1611536093641,
+      "contentHash": "608af9296bb1aae9726149dd01f91754",
+      "sourceName": "contracts/interfaces/IUniswapV2Callee.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Callee"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IUniswapV2ERC20.sol": {
+      "lastModificationDate": 1611536093639,
+      "contentHash": "09a9f8b79c0f15808cecfd93fc0ff312",
+      "sourceName": "contracts/interfaces/IUniswapV2ERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "IUniswapV2ERC20"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/Migrations.sol": {
+      "lastModificationDate": 1611536093635,
+      "contentHash": "4e130d4ae05e6a9df846f54c8c9c9a6a",
+      "sourceName": "contracts/Migrations.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.8.0"
+      ],
+      "artifacts": [
+        "Migrations"
+      ]
+    },
+    "/Users/anunair/work/release/POLKACASH_MAIN/contracts/test/MockWETH.sol": {
+      "lastModificationDate": 1611536093631,
+      "contentHash": "77fe61ba113a0e6a7e8ddc7fcfc17d09",
+      "sourceName": "contracts/test/MockWETH.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "MockWETH"
+      ]
+    }
+  }
+}

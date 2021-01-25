@@ -1,0 +1,245 @@
+{
+  "contractName": "IBoardroom",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "allocateSeigniorage",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"allocateSeigniorage\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IBoardroom.sol\":\"IBoardroom\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IBoardroom.sol\":{\"keccak256\":\"0xb51a1f80121e8fa23c2f58bf12a5923abb0da3b90cea3cbfb624659a8eee93d5\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1b94c357f2f2cdcc83f43c3746fee5aad8f2b6f302e2dab39639b47b10ffdc5a\",\"dweb:/ipfs/QmVK6Li1yWC5ajCfpquw8b45e547rgq2weqeggkW1fA1yd\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.6.0;\n\ninterface IBoardroom {\n    function allocateSeigniorage(uint256 amount) external;\n}\n",
+  "sourcePath": "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IBoardroom.sol",
+  "ast": {
+    "absolutePath": "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IBoardroom.sol",
+    "exportedSymbols": {
+      "IBoardroom": [
+        11273
+      ]
+    },
+    "id": 11274,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 11267,
+        "literals": [
+          "solidity",
+          "^",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:25"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 11273,
+        "linearizedBaseContracts": [
+          11273
+        ],
+        "name": "IBoardroom",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "functionSelector": "97ffe1d7",
+            "id": 11272,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "allocateSeigniorage",
+            "nodeType": "FunctionDefinition",
+            "overrides": null,
+            "parameters": {
+              "id": 11270,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 11269,
+                  "mutability": "mutable",
+                  "name": "amount",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 11272,
+                  "src": "113:14:25",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 11268,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "113:7:25",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "112:16:25"
+            },
+            "returnParameters": {
+              "id": 11271,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "137:0:25"
+            },
+            "scope": 11273,
+            "src": "84:54:25",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 11274,
+        "src": "57:83:25"
+      }
+    ],
+    "src": "32:109:25"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IBoardroom.sol",
+    "exportedSymbols": {
+      "IBoardroom": [
+        11273
+      ]
+    },
+    "id": 11274,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 11267,
+        "literals": [
+          "solidity",
+          "^",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:25"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 11273,
+        "linearizedBaseContracts": [
+          11273
+        ],
+        "name": "IBoardroom",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "functionSelector": "97ffe1d7",
+            "id": 11272,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "allocateSeigniorage",
+            "nodeType": "FunctionDefinition",
+            "overrides": null,
+            "parameters": {
+              "id": 11270,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 11269,
+                  "mutability": "mutable",
+                  "name": "amount",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 11272,
+                  "src": "113:14:25",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 11268,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "113:7:25",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "112:16:25"
+            },
+            "returnParameters": {
+              "id": 11271,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "137:0:25"
+            },
+            "scope": 11273,
+            "src": "84:54:25",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 11274,
+        "src": "57:83:25"
+      }
+    ],
+    "src": "32:109:25"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.6.12+commit.27d51765.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.1",
+  "updatedAt": "2021-01-25T03:54:23.026Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
