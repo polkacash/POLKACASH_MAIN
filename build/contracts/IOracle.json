@@ -52,16 +52,16 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amountIn\",\"type\":\"uint256\"}],\"name\":\"consult\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"amountOut\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"}],\"name\":\"getReserves\",\"outputs\":[{\"internalType\":\"uint112\",\"name\":\"reserve\",\"type\":\"uint112\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"update\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IOracle.sol\":\"IOracle\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IOracle.sol\":{\"keccak256\":\"0xbd8fdd747d4b7973d94bb9997818bbc47994cb45a174934b26710536e609589e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://21fc68faef9b912758b69bd9721d19e1f429533bf8747915b8ab909fb5957e73\",\"dweb:/ipfs/QmbYQdQi38ybhmMdadWTgrbf9GqJqEwkac1ExQbVGDy37E\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amountIn\",\"type\":\"uint256\"}],\"name\":\"consult\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"amountOut\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"}],\"name\":\"getReserves\",\"outputs\":[{\"internalType\":\"uint112\",\"name\":\"reserve\",\"type\":\"uint112\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"update\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IOracle.sol\":\"IOracle\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IOracle.sol\":{\"keccak256\":\"0xbd8fdd747d4b7973d94bb9997818bbc47994cb45a174934b26710536e609589e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://21fc68faef9b912758b69bd9721d19e1f429533bf8747915b8ab909fb5957e73\",\"dweb:/ipfs/QmbYQdQi38ybhmMdadWTgrbf9GqJqEwkac1ExQbVGDy37E\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.6.0;\n\ninterface IOracle {\n    function update() external;\n\n    function consult(address token, uint256 amountIn)\n        external\n        view\n        returns (uint256 amountOut);\n    function getReserves(address token) external view returns (uint112 reserve);\n}\n",
-  "sourcePath": "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IOracle.sol",
+  "sourcePath": "/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IOracle.sol",
   "ast": {
-    "absolutePath": "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IOracle.sol",
+    "absolutePath": "/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IOracle.sol",
     "exportedSymbols": {
       "IOracle": [
         11301
@@ -337,7 +337,7 @@
     "src": "32:282:27"
   },
   "legacyAST": {
-    "absolutePath": "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IOracle.sol",
+    "absolutePath": "/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IOracle.sol",
     "exportedSymbols": {
       "IOracle": [
         11301
@@ -618,7 +618,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.1",
-  "updatedAt": "2021-01-25T03:54:23.028Z",
+  "updatedAt": "2021-01-25T04:08:07.855Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

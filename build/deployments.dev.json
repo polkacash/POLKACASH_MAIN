@@ -1,6 +1,6 @@
 {
   "Oracle": {
-    "address": "0x07d691e39338b01BE2EaE00787a1a47e9d755877",
+    "address": "0x04adB0bfA17458213EA482c3203540F0856c9f1E",
     "abi": [
       {
         "inputs": [
@@ -300,7 +300,7 @@
     ]
   },
   "Cash": {
-    "address": "0xFe0f13b277AEf004b8745e0aAE8fe9e1e72e9588",
+    "address": "0x516A9C9b79fEd18e23dacAc75c908a6B8B6B79c4",
     "abi": [
       {
         "inputs": [],
@@ -754,7 +754,7 @@
     ]
   },
   "Bond": {
-    "address": "0x9141d798B021B2867CA9D6842A280C8B47aD6752",
+    "address": "0x8563eD67Ca4E67020C6d98474844362314d7554A",
     "abi": [
       {
         "inputs": [],
@@ -1208,7 +1208,7 @@
     ]
   },
   "Share": {
-    "address": "0x11D26e86921F5CCb18B7bB3770f57359e5448a29",
+    "address": "0x64468D37AB1c3b67a49AE9DEdAaf64cD9568fd2C",
     "abi": [
       {
         "inputs": [],
@@ -1662,7 +1662,7 @@
     ]
   },
   "Boardroom": {
-    "address": "0xE828a1ac5f99DDBF5ac2d353d30b598d2Cc15e2a",
+    "address": "0xb0D96C84C039DaAF4e9b78e61a74C8A7bce7cF90",
     "abi": [
       {
         "inputs": [
@@ -2041,7 +2041,7 @@
     ]
   },
   "Treasury": {
-    "address": "0x22A1319c04A73b5991911366AC077952036b8AE2",
+    "address": "0x02bDc29b707cb6273B813397389c9d02cE18aAD3",
     "abi": [
       {
         "inputs": [
@@ -2711,7 +2711,7 @@
     ]
   },
   "POCBNBPool": {
-    "address": "0x8D728c2f5E56336ae990f5c8D059877Db030B226",
+    "address": "0x67Ed45a28CADAc9d6e4A812a1100fC5d3A2da4C5",
     "abi": [
       {
         "inputs": [
@@ -3213,7 +3213,7 @@
     ]
   },
   "POCDAIPool": {
-    "address": "0xF5aA2D41CABf3738758710ddF88AE5Df65FfEAd6",
+    "address": "0xF19Bcb0Fd7ADa58FcFDd01F6CA58E7eF21B24a00",
     "abi": [
       {
         "inputs": [
@@ -3715,7 +3715,7 @@
     ]
   },
   "POCDUCKPool": {
-    "address": "0xF138931098A15afD2645116351a336F8210673D2",
+    "address": "0x3352679E22b0e3802C029d9f3a422C9f588BDAF1",
     "abi": [
       {
         "inputs": [
@@ -4217,7 +4217,7 @@
     ]
   },
   "POCESDPool": {
-    "address": "0x97C8D0d5F583c5cF80A3f2e9D07E8BCfb9c9062e",
+    "address": "0x61163729c702DCf010CDc1b75D6E958B1EA6Bd9b",
     "abi": [
       {
         "inputs": [
@@ -4719,7 +4719,7 @@
     ]
   },
   "POCFIREPool": {
-    "address": "0xB1E5e99b8e2Fb48Fe2268642E440b622c1a9f706",
+    "address": "0xFDe2040ba9449714c65f289fFb07a4763f641b70",
     "abi": [
       {
         "inputs": [
@@ -5221,7 +5221,7 @@
     ]
   },
   "POCFRAXPool": {
-    "address": "0x260C0Ee089B143Fa49F509acFe09A60f67C403F5",
+    "address": "0x5e69B393e1c91b5029fbBE853962723b47ECE0ab",
     "abi": [
       {
         "inputs": [
@@ -5723,7 +5723,7 @@
     ]
   },
   "POCINJPool": {
-    "address": "0x90F226E772D607DEF0723C11043CDE8C02D2d84F",
+    "address": "0xb269AD27841AdD2E2637CDa081Aa735989B17AE0",
     "abi": [
       {
         "inputs": [
@@ -6225,7 +6225,7 @@
     ]
   },
   "POCRAMPPool": {
-    "address": "0xb144a154fD28c7d0c9FdEa4Ac1e4dc9D99f1D261",
+    "address": "0xD949Fa4636375a3990B8Ef3Dc3AAca54037365b4",
     "abi": [
       {
         "inputs": [
@@ -6727,7 +6727,7 @@
     ]
   },
   "POCUFTPool": {
-    "address": "0xfB319a767d355a0615443B83ECE8bC41E52b743A",
+    "address": "0x4B00688C79558917Df1ef523A538cAd6C44A0540",
     "abi": [
       {
         "inputs": [
@@ -7229,7 +7229,7 @@
     ]
   },
   "POCUSDCPool": {
-    "address": "0xe3dE99201d5ff6Ab68c2E489fDF32b1A7d85F75e",
+    "address": "0xd8c08CA55d4191Cb6F456d2d12ddFa25255B398e",
     "abi": [
       {
         "inputs": [
@@ -7731,7 +7731,7 @@
     ]
   },
   "POCUSDTPool": {
-    "address": "0xb4c34342a3B8Bb34873D32B78c50444970f3b5e4",
+    "address": "0x1eD506bdee71732352408fED2CD5d8bDC9dd0d27",
     "abi": [
       {
         "inputs": [
@@ -8233,7 +8233,7 @@
     ]
   },
   "POCUSDXPool": {
-    "address": "0x91aFbaCE3BEaA0F5db0E08B0129aB56F6335b935",
+    "address": "0x24a797C0e0f6670A7DbD65B6bFa808E2d79C0E05",
     "abi": [
       {
         "inputs": [
@@ -8735,7 +8735,7 @@
     ]
   },
   "USDCPOCLPTokenSharePool": {
-    "address": "0x646993C3621968bC6a60C3f6E90A8812c22445F3",
+    "address": "0x2bE151710de414483a422C0e88882D09329f87D7",
     "abi": [
       {
         "inputs": [
@@ -9231,7 +9231,7 @@
     ]
   },
   "USDCPOSLPTokenSharePool": {
-    "address": "0x637b56203dA3A45c0F1601DB24034D91FfdB0Acc",
+    "address": "0xCB75942a2CAE681CaE90F5e4fBB547691a44108B",
     "abi": [
       {
         "inputs": [

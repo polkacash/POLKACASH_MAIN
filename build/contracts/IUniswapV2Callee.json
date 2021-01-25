@@ -30,16 +30,16 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"uniswapV2Call\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IUniswapV2Callee.sol\":\"IUniswapV2Callee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IUniswapV2Callee.sol\":{\"keccak256\":\"0xdb74980e2bafd82238afe35a50f16144e46f2638b5b07ec68642d234c1c42df0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://25c0e73812fa932c29835b739198073af93e0e7b73eeef467a73032206a79811\",\"dweb:/ipfs/QmfERJiLJ9UtAgtWXB1H8Bhzif2U7zagCi3NTnxaPVDsch\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"uniswapV2Call\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IUniswapV2Callee.sol\":\"IUniswapV2Callee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IUniswapV2Callee.sol\":{\"keccak256\":\"0xdb74980e2bafd82238afe35a50f16144e46f2638b5b07ec68642d234c1c42df0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://25c0e73812fa932c29835b739198073af93e0e7b73eeef467a73032206a79811\",\"dweb:/ipfs/QmfERJiLJ9UtAgtWXB1H8Bhzif2U7zagCi3NTnxaPVDsch\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.6.0;\n\ninterface IUniswapV2Callee {\n    function uniswapV2Call(\n        address sender,\n        uint256 amount0,\n        uint256 amount1,\n        bytes calldata data\n    ) external;\n}\n",
-  "sourcePath": "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IUniswapV2Callee.sol",
+  "sourcePath": "/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IUniswapV2Callee.sol",
   "ast": {
-    "absolutePath": "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IUniswapV2Callee.sol",
+    "absolutePath": "/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IUniswapV2Callee.sol",
     "exportedSymbols": {
       "IUniswapV2Callee": [
         11386
@@ -225,7 +225,7 @@
     "src": "32:202:30"
   },
   "legacyAST": {
-    "absolutePath": "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IUniswapV2Callee.sol",
+    "absolutePath": "/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IUniswapV2Callee.sol",
     "exportedSymbols": {
       "IUniswapV2Callee": [
         11386
@@ -416,7 +416,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.1",
-  "updatedAt": "2021-01-25T03:54:23.029Z",
+  "updatedAt": "2021-01-25T04:08:07.857Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

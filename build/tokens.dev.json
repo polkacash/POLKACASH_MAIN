@@ -1,86 +1,86 @@
 {
   "DAI": {
     "poolName": "POCDAIPool",
-    "poolAddress": "0xF5aA2D41CABf3738758710ddF88AE5Df65FfEAd6",
+    "poolAddress": "0xF19Bcb0Fd7ADa58FcFDd01F6CA58E7eF21B24a00",
     "tokenName": "DAI",
-    "tokenAddress": "0x458b32Ad3ff2589D07E2059C963B19296eD39af1",
+    "tokenAddress": "0xB66808CfEc5a9d3e729e89b2A6AF2Ed8AAD6F1bA",
     "decimals": 18
   },
   "FRAX": {
     "poolName": "POCFRAXPool",
-    "poolAddress": "0x260C0Ee089B143Fa49F509acFe09A60f67C403F5",
+    "poolAddress": "0x5e69B393e1c91b5029fbBE853962723b47ECE0ab",
     "tokenName": "FRAX",
-    "tokenAddress": "0x82C2df3e844D43acBA482208Cdf0AaD383ba1739",
+    "tokenAddress": "0x8958f58e283d6f2Dc2085B03ec90ea56010Ce412",
     "decimals": 18
   },
   "USDT": {
     "poolName": "POCUSDTPool",
-    "poolAddress": "0xb4c34342a3B8Bb34873D32B78c50444970f3b5e4",
+    "poolAddress": "0x1eD506bdee71732352408fED2CD5d8bDC9dd0d27",
     "tokenName": "USDT",
-    "tokenAddress": "0xa817327f28381b469F91A39c59b8b038171efE13",
+    "tokenAddress": "0xB5E35FC19493101a9342F39a7bc44CD9537068ed",
     "decimals": 6
   },
   "USDC": {
     "poolName": "POCUSDCPool",
-    "poolAddress": "0xe3dE99201d5ff6Ab68c2E489fDF32b1A7d85F75e",
+    "poolAddress": "0xd8c08CA55d4191Cb6F456d2d12ddFa25255B398e",
     "tokenName": "USDC",
-    "tokenAddress": "0x3c190917968087A1995704Ab89899D1522e87828",
+    "tokenAddress": "0x1FB97b3F8EbC2c3a336a88BbBf89E1cF81b3B329",
     "decimals": 6
   },
   "ESD": {
     "poolName": "POCESDPool",
-    "poolAddress": "0x97C8D0d5F583c5cF80A3f2e9D07E8BCfb9c9062e",
+    "poolAddress": "0x61163729c702DCf010CDc1b75D6E958B1EA6Bd9b",
     "tokenName": "ESD",
-    "tokenAddress": "0x23451aC1Abb187da3606164D86381d32eB87A9e6",
+    "tokenAddress": "0xeeA829B6127488e67d93aB152aa4bFA226B034b2",
     "decimals": 18
   },
   "RAMP": {
     "poolName": "POCRAMPPool",
-    "poolAddress": "0xb144a154fD28c7d0c9FdEa4Ac1e4dc9D99f1D261",
+    "poolAddress": "0xD949Fa4636375a3990B8Ef3Dc3AAca54037365b4",
     "tokenName": "RAMP",
-    "tokenAddress": "0xA714b3F0F3d91FEd20beb41F5F9D26F1456b8b45",
+    "tokenAddress": "0x892335B7f8bd7dF617802f88190bf852125B2437",
     "decimals": 18
   },
   "UFT": {
     "poolName": "POCUFTPool",
-    "poolAddress": "0xfB319a767d355a0615443B83ECE8bC41E52b743A",
+    "poolAddress": "0x4B00688C79558917Df1ef523A538cAd6C44A0540",
     "tokenName": "UFT",
-    "tokenAddress": "0xF88F010459189a17075D96856Cd897d17E71F8AB",
+    "tokenAddress": "0xc0cbD90b098792cC7A93eC588a87fBCa01570b3c",
     "decimals": 18
   },
   "INJ": {
     "poolName": "POCINJPool",
-    "poolAddress": "0x90F226E772D607DEF0723C11043CDE8C02D2d84F",
+    "poolAddress": "0xb269AD27841AdD2E2637CDa081Aa735989B17AE0",
     "tokenName": "INJ",
-    "tokenAddress": "0x992596cED33bd6d967Bdb3555a0cf52ab95967bE",
+    "tokenAddress": "0x148D439942dDcabE1CB2f4Faeb6A09E01dBD0B4F",
     "decimals": 18
   },
   "BNB": {
     "poolName": "POCBNBPool",
-    "poolAddress": "0x8D728c2f5E56336ae990f5c8D059877Db030B226",
+    "poolAddress": "0x67Ed45a28CADAc9d6e4A812a1100fC5d3A2da4C5",
     "tokenName": "BNB",
-    "tokenAddress": "0x2a8845e6F9421a64B2a7eb23e2E4D92c06366892",
+    "tokenAddress": "0xa6Da2aE29388548D1dc23F67b391c64e9BA5d33b",
     "decimals": 18
   },
   "USDX": {
     "poolName": "POCUSDXPool",
-    "poolAddress": "0x91aFbaCE3BEaA0F5db0E08B0129aB56F6335b935",
+    "poolAddress": "0x24a797C0e0f6670A7DbD65B6bFa808E2d79C0E05",
     "tokenName": "USDX",
-    "tokenAddress": "0xe55BBaE0b044E34803Ce541BC3fc0d777Db3a273",
+    "tokenAddress": "0x8b879A6e77A1B1d79E119d0a8ba823f4c2a34798",
     "decimals": 18
   },
   "FIRE": {
     "poolName": "POCFIREPool",
-    "poolAddress": "0xB1E5e99b8e2Fb48Fe2268642E440b622c1a9f706",
+    "poolAddress": "0xFDe2040ba9449714c65f289fFb07a4763f641b70",
     "tokenName": "FIRE",
-    "tokenAddress": "0x6A9d40623b64AB476d13ec8c37D61D9Bb532aba8",
+    "tokenAddress": "0x15C0beEe66632542be9243DAb7faAc91D9C1cb36",
     "decimals": 18
   },
   "DUCK": {
     "poolName": "POCDUCKPool",
-    "poolAddress": "0xF138931098A15afD2645116351a336F8210673D2",
+    "poolAddress": "0x3352679E22b0e3802C029d9f3a422C9f588BDAF1",
     "tokenName": "DUCK",
-    "tokenAddress": "0x62C383f318c4e83E62E251C87C0d80fCcc09eae3",
+    "tokenAddress": "0xD77233A7894364fFfBcB112A3239ff9feb999701",
     "decimals": 18
   }
 }

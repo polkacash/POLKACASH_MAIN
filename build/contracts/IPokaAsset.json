@@ -83,16 +83,16 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"burn\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"burnFrom\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"isOperator\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"recipient\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"mint\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"operator\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IPokaAsset.sol\":\"IPokaAsset\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IPokaAsset.sol\":{\"keccak256\":\"0x8b461f214ac01ff9b3dcc441cae550c56a0d5dec7d326eff33edb02898c71bcb\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f02e2ff50bb02a596adb857ab0955e539697dd1d88b50e32550d12b4401e0ab2\",\"dweb:/ipfs/QmYf5Z38VrBjcgsYuiYMXR3zWWkEc8eBnZX8sU8HDaVq2M\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"burn\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"burnFrom\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"isOperator\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"recipient\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"mint\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"operator\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IPokaAsset.sol\":\"IPokaAsset\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IPokaAsset.sol\":{\"keccak256\":\"0x8b461f214ac01ff9b3dcc441cae550c56a0d5dec7d326eff33edb02898c71bcb\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f02e2ff50bb02a596adb857ab0955e539697dd1d88b50e32550d12b4401e0ab2\",\"dweb:/ipfs/QmYf5Z38VrBjcgsYuiYMXR3zWWkEc8eBnZX8sU8HDaVq2M\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.6.0;\n\ninterface IPokaAsset {\n    function mint(address recipient, uint256 amount) external returns (bool);\n\n    function burn(uint256 amount) external;\n\n    function burnFrom(address from, uint256 amount) external;\n\n    function isOperator() external returns (bool);\n\n    function operator() external view returns (address);\n}\n",
-  "sourcePath": "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IPokaAsset.sol",
+  "sourcePath": "/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IPokaAsset.sol",
   "ast": {
-    "absolutePath": "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IPokaAsset.sol",
+    "absolutePath": "/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IPokaAsset.sol",
     "exportedSymbols": {
       "IPokaAsset": [
         11335
@@ -513,7 +513,7 @@
     "src": "32:346:28"
   },
   "legacyAST": {
-    "absolutePath": "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IPokaAsset.sol",
+    "absolutePath": "/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IPokaAsset.sol",
     "exportedSymbols": {
       "IPokaAsset": [
         11335
@@ -939,7 +939,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.1",
-  "updatedAt": "2021-01-25T03:54:23.028Z",
+  "updatedAt": "2021-01-25T04:08:07.855Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

@@ -9,16 +9,16 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"distribute\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IDistributor.sol\":\"IDistributor\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IDistributor.sol\":{\"keccak256\":\"0x218de9313bf575d223da7a0ed0eaf8e102c17cc49887b79451afb088babd09bb\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ca0016eef00dfe2f465a1d509a9325d87fa40b2749d727301efa7e578c10586c\",\"dweb:/ipfs/Qmf7zLHwNhufNY59253PwX1Az4f6Fg2i8UhzKufxGp2sFB\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"distribute\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IDistributor.sol\":\"IDistributor\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IDistributor.sol\":{\"keccak256\":\"0x218de9313bf575d223da7a0ed0eaf8e102c17cc49887b79451afb088babd09bb\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ca0016eef00dfe2f465a1d509a9325d87fa40b2749d727301efa7e578c10586c\",\"dweb:/ipfs/Qmf7zLHwNhufNY59253PwX1Az4f6Fg2i8UhzKufxGp2sFB\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.6.0;\n\ninterface IDistributor {\n    function distribute() external;\n}\n",
-  "sourcePath": "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IDistributor.sol",
+  "sourcePath": "/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IDistributor.sol",
   "ast": {
-    "absolutePath": "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IDistributor.sol",
+    "absolutePath": "/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IDistributor.sol",
     "exportedSymbols": {
       "IDistributor": [
         11279
@@ -90,7 +90,7 @@
     "src": "32:88:26"
   },
   "legacyAST": {
-    "absolutePath": "/Users/anunair/work/release/POLKACASH_MAIN/contracts/interfaces/IDistributor.sol",
+    "absolutePath": "/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IDistributor.sol",
     "exportedSymbols": {
       "IDistributor": [
         11279
@@ -167,7 +167,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.1",
-  "updatedAt": "2021-01-25T03:54:23.027Z",
+  "updatedAt": "2021-01-25T04:08:07.854Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

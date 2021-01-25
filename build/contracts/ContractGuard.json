@@ -1,16 +1,16 @@
 {
   "contractName": "ContractGuard",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/anunair/work/release/POLKACASH_MAIN/contracts/utils/ContractGuard.sol\":\"ContractGuard\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/anunair/work/release/POLKACASH_MAIN/contracts/utils/ContractGuard.sol\":{\"keccak256\":\"0xf6ec122f38c1aabe2039b2b0a15f372b724bee19f311b62006d0156cb5a3625f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://20df336d5c35cd30622e1dbc7e20a51ff210df1356f1b561b1a05edf7935a7dd\",\"dweb:/ipfs/QmWH3jCFfdHtVRdmTZ5hZZZJVp5xANghP4MrLD42trizwM\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220568da31d2e1c9ee6321e78e18560cd5b364b8df8ea7fc5e19d147ad536d6860164736f6c634300060c0033",
-  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220568da31d2e1c9ee6321e78e18560cd5b364b8df8ea7fc5e19d147ad536d6860164736f6c634300060c0033",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/utils/ContractGuard.sol\":\"ContractGuard\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/utils/ContractGuard.sol\":{\"keccak256\":\"0xf6ec122f38c1aabe2039b2b0a15f372b724bee19f311b62006d0156cb5a3625f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://20df336d5c35cd30622e1dbc7e20a51ff210df1356f1b561b1a05edf7935a7dd\",\"dweb:/ipfs/QmWH3jCFfdHtVRdmTZ5hZZZJVp5xANghP4MrLD42trizwM\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212209588e9a17fbddf0173931cdf0de863c8868a3fe32fbb610e648a385f54b5faff64736f6c634300060c0033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212209588e9a17fbddf0173931cdf0de863c8868a3fe32fbb610e648a385f54b5faff64736f6c634300060c0033",
   "immutableReferences": {},
   "sourceMap": "58:748:47:-:0;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "58:748:47:-:0;;;;;",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.6.12;\n\ncontract ContractGuard {\n    mapping(uint256 => mapping(address => bool)) private _status;\n\n    function checkSameOriginReentranted() internal view returns (bool) {\n        return _status[block.number][tx.origin];\n    }\n\n    function checkSameSenderReentranted() internal view returns (bool) {\n        return _status[block.number][msg.sender];\n    }\n\n    modifier onlyOneBlock() {\n        require(\n            !checkSameOriginReentranted(),\n            'ContractGuard: one block, one function'\n        );\n        require(\n            !checkSameSenderReentranted(),\n            'ContractGuard: one block, one function'\n        );\n\n        _;\n\n        _status[block.number][tx.origin] = true;\n        _status[block.number][msg.sender] = true;\n    }\n}\n",
-  "sourcePath": "/Users/anunair/work/release/POLKACASH_MAIN/contracts/utils/ContractGuard.sol",
+  "sourcePath": "/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/utils/ContractGuard.sol",
   "ast": {
-    "absolutePath": "/Users/anunair/work/release/POLKACASH_MAIN/contracts/utils/ContractGuard.sol",
+    "absolutePath": "/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/utils/ContractGuard.sol",
     "exportedSymbols": {
       "ContractGuard": [
         13822
@@ -985,7 +985,7 @@
     "src": "32:775:47"
   },
   "legacyAST": {
-    "absolutePath": "/Users/anunair/work/release/POLKACASH_MAIN/contracts/utils/ContractGuard.sol",
+    "absolutePath": "/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/utils/ContractGuard.sol",
     "exportedSymbols": {
       "ContractGuard": [
         13822
@@ -1965,7 +1965,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.1",
-  "updatedAt": "2021-01-25T03:54:23.061Z",
+  "updatedAt": "2021-01-25T04:08:07.910Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
