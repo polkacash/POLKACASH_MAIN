@@ -57,8 +57,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -71,8 +70,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -85,8 +83,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -99,8 +96,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -113,8 +109,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -127,8 +122,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -141,8 +135,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -155,8 +148,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -169,8 +161,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -183,8 +174,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -197,8 +187,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -211,8 +200,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -243,8 +231,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -273,8 +260,7 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -293,8 +279,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_factory\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_tokenA\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_tokenB\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_startTime\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"price0CumulativeLast\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"price1CumulativeLast\",\"type\":\"uint256\"}],\"name\":\"Updated\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"PERIOD\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"blockTimestampLast\",\"outputs\":[{\"internalType\":\"uint32\",\"name\":\"\",\"type\":\"uint32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amountIn\",\"type\":\"uint256\"}],\"name\":\"consult\",\"outputs\":[{\"internalType\":\"uint144\",\"name\":\"amountOut\",\"type\":\"uint144\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"epoch\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"}],\"name\":\"getReserves\",\"outputs\":[{\"internalType\":\"uint112\",\"name\":\"reserve\",\"type\":\"uint112\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"nextEpochPoint\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"pair\",\"outputs\":[{\"internalType\":\"contract IUniswapV2Pair\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"factory\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"tokenA\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"tokenB\",\"type\":\"address\"}],\"name\":\"pairFor\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"lpt\",\"type\":\"address\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"price0Average\",\"outputs\":[{\"internalType\":\"uint224\",\"name\":\"_x\",\"type\":\"uint224\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"price0CumulativeLast\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"price1Average\",\"outputs\":[{\"internalType\":\"uint224\",\"name\":\"_x\",\"type\":\"uint224\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"price1CumulativeLast\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"startTime\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"token0\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"token1\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"update\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"update()\":{\"details\":\"Updates 1-day EMA price from Uniswap.  \"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/Oracle.sol\":\"Oracle\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/Oracle.sol\":{\"keccak256\":\"0x4a80ef4c39c8233115ceaa637489b6a4c998f8257f7b5332b707992ff3810c4b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ef882e33100f0f849410fca426faf6d2feb03c292e567c8c922a907881f96c0d\",\"dweb:/ipfs/QmVMoFDESCuewAFSMrV2BMmhgKud67eG5zkZKM5ZaQ35G4\"]},\"/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IUniswapV2Factory.sol\":{\"keccak256\":\"0xb96f96e86f8a904270ca480f4f5aef8dc1ec7f3fdd6fcb4edc1890e0849d07da\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://43d711750d8f190de94f6ea58af2bb79e53cf47aef7f35689d29982de86ca3e3\",\"dweb:/ipfs/QmbBFcFkjEwVyyoTctdK6dso5mRurCexPig94izckmf9js\"]},\"/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/interfaces/IUniswapV2Pair.sol\":{\"keccak256\":\"0x5af7d79b2f5aea2458f3649c17b037d79337ccc27c75ece174c1420905139484\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7e3b020d3d5cb8d8b6b6306f4b4039c40c8a2d2868f0b345605391dbc43cd6ea\",\"dweb:/ipfs/QmPdjehdPfPPmwHGbXri9sJ8qhReK3NsCKKRGkYBtL4ioX\"]},\"/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/lib/Babylonian.sol\":{\"keccak256\":\"0x11827e2782b01a75a11b764d79d723d53b44acc12b6565c92e5fb7be219118b6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6c282d20ced763e1d4d86438fb713209eab0c94223eefd4b278030dbb363832b\",\"dweb:/ipfs/QmVhdtiVsvVHvd3ew8kbbWGqpXu7QW2FNrKGNPTkBxz1sr\"]},\"/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/lib/FixedPoint.sol\":{\"keccak256\":\"0xdfdd93ad812981119f596960c641525b80f2ecc1e3c01bd4af4afb6ee662746f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4d9059208db16e985f69c4e4a72f4fe00e7575c8d6ce9650ce0d86cb13800bf9\",\"dweb:/ipfs/QmNkHhPwAxfTaykFyMuaaQ7U3rDuY2cSZxi7tyk1XwRqtt\"]},\"/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/lib/UniswapV2Library.sol\":{\"keccak256\":\"0xb869bdd8c3df7c874679d0fe0cce2f43a5736925f3f9ceb4dd518cc51aaba1fa\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bacaa9c98d5b0866178b01376c1468489018844a98c2c5fca23ab41911f9234d\",\"dweb:/ipfs/QmNSTKsMkGrGErk3tvpmx64maJESrAgihetP68Bt67cqcq\"]},\"/Users/anunair/work/release/new/POLKACASH_MAIN/contracts/lib/UniswapV2OracleLibrary.sol\":{\"keccak256\":\"0xf0b237a885d315125828f5d06e2243d92d218af2dda254166f17ba7dc276fcd3\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://dc86567dce6c65556ec182f451843bbb58d5be6d8e0def98dc4c7c008a571461\",\"dweb:/ipfs/QmS5mwmsvFAB9fn8aTyk7S6hz6t4m6Y9xu1D4qsvDvQk1t\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x9a9cf02622cd7a64261b10534fc3260449da25c98c9e96d1b4ae8110a20e5806\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2df142592d1dc267d9549049ee3317fa190d2f87eaa565f86ab05ec83f7ab8f5\",\"dweb:/ipfs/QmSkJtcfWo7c42KnL5hho6GFxK6HRNV91XABx1P7xDtfLV\"]}},\"version\":1}",
@@ -333,7 +318,7 @@
         "id": 839,
         "nodeType": "ImportDirective",
         "scope": 1173,
-        "sourceUnit": 14224,
+        "sourceUnit": 14207,
         "src": "57:51:5",
         "symbolAliases": [],
         "unitAlias": ""
@@ -443,10 +428,10 @@
               "id": 848,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 14223,
+              "referencedDeclaration": 14206,
               "src": "605:8:5",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$14223",
+                "typeIdentifier": "t_contract$_SafeMath_$14206",
                 "typeString": "library SafeMath"
               }
             },
@@ -2163,7 +2148,7 @@
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 14056,
+                        "referencedDeclaration": 14039,
                         "src": "2260:9:5",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -2266,7 +2251,7 @@
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 14136,
+                          "referencedDeclaration": 14119,
                           "src": "2420:9:5",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -2316,7 +2301,7 @@
                       "lValueRequested": false,
                       "memberName": "add",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 14056,
+                      "referencedDeclaration": 14039,
                       "src": "2406:13:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -4899,7 +4884,7 @@
         "id": 839,
         "nodeType": "ImportDirective",
         "scope": 1173,
-        "sourceUnit": 14224,
+        "sourceUnit": 14207,
         "src": "57:51:5",
         "symbolAliases": [],
         "unitAlias": ""
@@ -5009,10 +4994,10 @@
               "id": 848,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 14223,
+              "referencedDeclaration": 14206,
               "src": "605:8:5",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$14223",
+                "typeIdentifier": "t_contract$_SafeMath_$14206",
                 "typeString": "library SafeMath"
               }
             },
@@ -6729,7 +6714,7 @@
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 14056,
+                        "referencedDeclaration": 14039,
                         "src": "2260:9:5",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -6832,7 +6817,7 @@
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 14136,
+                          "referencedDeclaration": 14119,
                           "src": "2420:9:5",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -6882,7 +6867,7 @@
                       "lValueRequested": false,
                       "memberName": "add",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 14056,
+                      "referencedDeclaration": 14039,
                       "src": "2406:13:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -9465,13 +9450,12 @@
         }
       },
       "links": {},
-      "address": "0x04adB0bfA17458213EA482c3203540F0856c9f1E",
-      "transactionHash": "0xe27ed7ee715415b505d06e1d60b6558dd384f5da0108e6c9893e4e6520602aed"
+      "address": "0x0f0Dc29cb6E22CCf146fEeBC0b5F4abc814294e7",
+      "transactionHash": "0x3bb3b6252a6b2c7239e4fd371343662b6e7b934b1278394e6e92649d188b6060"
     }
   },
   "schemaVersion": "3.3.1",
-  "updatedAt": "2021-01-25T04:32:34.361Z",
-  "networkType": "ethereum",
+  "updatedAt": "2021-01-26T08:21:53.870Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

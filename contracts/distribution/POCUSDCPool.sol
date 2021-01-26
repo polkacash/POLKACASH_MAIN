@@ -167,8 +167,8 @@ contract POCUSDCPool is USDCWrapper, IRewardDistributionRecipient {
         uint256 reward = earned(msg.sender);
         if (reward > 0) {
             rewards[msg.sender] = 0;
-            polkaCash.safeTransfer(msg.sender, reward.mul(91).div(100));
-            polkaCash.safeTransfer(devAddr, reward.mul(9).div(100));
+            polkaCash.safeTransfer(msg.sender, reward.mul(93).div(100));
+            polkaCash.safeTransfer(devAddr, reward.mul(7).div(100));
             emit RewardPaid(msg.sender, reward);
         }
     }

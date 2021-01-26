@@ -148,7 +148,7 @@
         "id": 12891,
         "nodeType": "ImportDirective",
         "scope": 12994,
-        "sourceUnit": 13846,
+        "sourceUnit": 13829,
         "src": "57:49:40",
         "symbolAliases": [],
         "unitAlias": ""
@@ -159,7 +159,7 @@
         "id": 12892,
         "nodeType": "ImportDirective",
         "scope": 12994,
-        "sourceUnit": 13955,
+        "sourceUnit": 13938,
         "src": "107:52:40",
         "symbolAliases": [],
         "unitAlias": ""
@@ -174,10 +174,10 @@
               "id": 12893,
               "name": "Context",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 13845,
+              "referencedDeclaration": 13828,
               "src": "182:7:40",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Context_$13845",
+                "typeIdentifier": "t_contract$_Context_$13828",
                 "typeString": "contract Context"
               }
             },
@@ -192,10 +192,10 @@
               "id": 12895,
               "name": "Ownable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 13954,
+              "referencedDeclaration": 13937,
               "src": "191:7:40",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Ownable_$13954",
+                "typeIdentifier": "t_contract$_Ownable_$13937",
                 "typeString": "contract Ownable"
               }
             },
@@ -205,8 +205,8 @@
           }
         ],
         "contractDependencies": [
-          13845,
-          13954
+          13828,
+          13937
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -214,8 +214,8 @@
         "id": 12993,
         "linearizedBaseContracts": [
           12993,
-          13954,
-          13845
+          13937,
+          13828
         ],
         "name": "Operator",
         "nodeType": "ContractDefinition",
@@ -362,7 +362,7 @@
                         "name": "_msgSender",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 13833,
+                        "referencedDeclaration": 13816,
                         "src": "399:10:40",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$__$returns$_t_address_payable_$",
@@ -814,7 +814,7 @@
                         "name": "_msgSender",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 13833,
+                        "referencedDeclaration": 13816,
                         "src": "800:10:40",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$__$returns$_t_address_payable_$",
@@ -998,7 +998,7 @@
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 13903,
+                  "referencedDeclaration": 13886,
                   "src": "893:9:40",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -1495,7 +1495,7 @@
         "id": 12891,
         "nodeType": "ImportDirective",
         "scope": 12994,
-        "sourceUnit": 13846,
+        "sourceUnit": 13829,
         "src": "57:49:40",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1506,7 +1506,7 @@
         "id": 12892,
         "nodeType": "ImportDirective",
         "scope": 12994,
-        "sourceUnit": 13955,
+        "sourceUnit": 13938,
         "src": "107:52:40",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1521,10 +1521,10 @@
               "id": 12893,
               "name": "Context",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 13845,
+              "referencedDeclaration": 13828,
               "src": "182:7:40",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Context_$13845",
+                "typeIdentifier": "t_contract$_Context_$13828",
                 "typeString": "contract Context"
               }
             },
@@ -1539,10 +1539,10 @@
               "id": 12895,
               "name": "Ownable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 13954,
+              "referencedDeclaration": 13937,
               "src": "191:7:40",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Ownable_$13954",
+                "typeIdentifier": "t_contract$_Ownable_$13937",
                 "typeString": "contract Ownable"
               }
             },
@@ -1552,8 +1552,8 @@
           }
         ],
         "contractDependencies": [
-          13845,
-          13954
+          13828,
+          13937
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -1561,8 +1561,8 @@
         "id": 12993,
         "linearizedBaseContracts": [
           12993,
-          13954,
-          13845
+          13937,
+          13828
         ],
         "name": "Operator",
         "nodeType": "ContractDefinition",
@@ -1709,7 +1709,7 @@
                         "name": "_msgSender",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 13833,
+                        "referencedDeclaration": 13816,
                         "src": "399:10:40",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$__$returns$_t_address_payable_$",
@@ -2161,7 +2161,7 @@
                         "name": "_msgSender",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 13833,
+                        "referencedDeclaration": 13816,
                         "src": "800:10:40",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$__$returns$_t_address_payable_$",
@@ -2345,7 +2345,7 @@
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 13903,
+                  "referencedDeclaration": 13886,
                   "src": "893:9:40",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -2820,7 +2820,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.1",
-  "updatedAt": "2021-01-25T04:08:07.886Z",
+  "updatedAt": "2021-01-26T08:21:54.287Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

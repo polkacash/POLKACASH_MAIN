@@ -51,14 +51,16 @@ contract MockOracle is IOracle {
         return startTime.add(epoch.mul(PERIOD));
     }
 
+    /*
     function pairFor(
         address factory,
         address tokenA,
         address tokenB
     ) external pure returns (address lpt){
-        //return UniswapV2Library.pairFor(factory, tokenA, tokenB);
+        //UniswapV2Library.pairFor(factory, tokenA, tokenB);
         return address(0);
     }
+    */
 
     function setPrice(uint256 _price) public {
         price = _price;

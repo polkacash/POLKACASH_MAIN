@@ -5,7 +5,7 @@ import './owner/Operator.sol';
 import '@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol';
 
 contract Share is ERC20Burnable, Operator {
-    constructor() public ERC20('POS', 'points') {
+    constructor() public ERC20('POS', 'POS') {
         // Mints 1 polka Share to contract creator for initial Uniswap oracle deployment.
         // Will be burned after oracle deployment
         _mint(msg.sender, 1 * 10**18);

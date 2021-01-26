@@ -234,11 +234,10 @@
         }
       },
       "links": {},
-      "address": "0x5c9c9a13788198FE1c7826dC84F118d245F6272C",
-      "transactionHash": "0xadbbcb8c873dac348783f418d089cdb7a36420bc591a413ae8cf699a88b41109"
+      "address": "0x35Ee2e490CEDEACdad21F296288D957A6035dc2D",
+      "transactionHash": "0x1cfc5c5e73b676861e2ddaab3615eaba0bc7845889df6107f3dc241270b50777"
     }
   },
-  "schemaVersion": "3.3.1",
-  "updatedAt": "2021-01-25T04:32:25.231Z",
-  "networkType": "ethereum"
+  "schemaVersion": "3.3.3",
+  "updatedAt": "2021-01-26T08:21:57.615Z"
 }

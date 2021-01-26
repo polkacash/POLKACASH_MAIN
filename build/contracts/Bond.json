@@ -116,8 +116,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -160,8 +159,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -174,8 +172,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -236,8 +233,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -250,8 +246,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -264,8 +259,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -278,8 +272,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -299,8 +292,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -313,8 +305,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -498,7 +489,7 @@
         "id": 580,
         "nodeType": "ImportDirective",
         "scope": 664,
-        "sourceUnit": 14787,
+        "sourceUnit": 14770,
         "src": "88:63:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -513,10 +504,10 @@
               "id": 581,
               "name": "ERC20Burnable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 14786,
+              "referencedDeclaration": 14769,
               "src": "170:13:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC20Burnable_$14786",
+                "typeIdentifier": "t_contract$_ERC20Burnable_$14769",
                 "typeString": "contract ERC20Burnable"
               }
             },
@@ -531,10 +522,10 @@
               "id": 583,
               "name": "Ownable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 13954,
+              "referencedDeclaration": 13937,
               "src": "185:7:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Ownable_$13954",
+                "typeIdentifier": "t_contract$_Ownable_$13937",
                 "typeString": "contract Ownable"
               }
             },
@@ -563,11 +554,11 @@
         ],
         "contractDependencies": [
           12993,
-          13845,
-          13954,
-          14730,
-          14786,
-          14864
+          13828,
+          13937,
+          14713,
+          14769,
+          14847
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -576,11 +567,11 @@
         "linearizedBaseContracts": [
           663,
           12993,
-          13954,
-          14786,
-          14730,
-          14864,
-          13845
+          13937,
+          14769,
+          14713,
+          14847,
+          13828
         ],
         "name": "Bond",
         "nodeType": "ContractDefinition",
@@ -648,10 +639,10 @@
                   "name": "ERC20",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 14730,
+                  "referencedDeclaration": 14713,
                   "src": "304:5:1",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_ERC20_$14730_$",
+                    "typeIdentifier": "t_type$_t_contract$_ERC20_$14713_$",
                     "typeString": "type(contract ERC20)"
                   }
                 },
@@ -749,7 +740,7 @@
                       "name": "balanceOf",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 14330,
+                      "referencedDeclaration": 14313,
                       "src": "711:9:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_uint256_$",
@@ -820,7 +811,7 @@
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 14606,
+                      "referencedDeclaration": 14589,
                       "src": "742:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -909,7 +900,7 @@
                       "name": "balanceOf",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 14330,
+                      "referencedDeclaration": 14313,
                       "src": "801:9:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_uint256_$",
@@ -1128,7 +1119,7 @@
           },
           {
             "baseFunctions": [
-              14752
+              14735
             ],
             "body": {
               "id": 643,
@@ -1180,7 +1171,7 @@
                       "lValueRequested": false,
                       "memberName": "burn",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 14752,
+                      "referencedDeclaration": 14735,
                       "src": "950:10:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$returns$__$",
@@ -1291,7 +1282,7 @@
           },
           {
             "baseFunctions": [
-              14785
+              14768
             ],
             "body": {
               "id": 661,
@@ -1360,7 +1351,7 @@
                       "lValueRequested": false,
                       "memberName": "burnFrom",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 14785,
+                      "referencedDeclaration": 14768,
                       "src": "1099:14:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -1544,7 +1535,7 @@
         "id": 580,
         "nodeType": "ImportDirective",
         "scope": 664,
-        "sourceUnit": 14787,
+        "sourceUnit": 14770,
         "src": "88:63:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1559,10 +1550,10 @@
               "id": 581,
               "name": "ERC20Burnable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 14786,
+              "referencedDeclaration": 14769,
               "src": "170:13:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC20Burnable_$14786",
+                "typeIdentifier": "t_contract$_ERC20Burnable_$14769",
                 "typeString": "contract ERC20Burnable"
               }
             },
@@ -1577,10 +1568,10 @@
               "id": 583,
               "name": "Ownable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 13954,
+              "referencedDeclaration": 13937,
               "src": "185:7:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Ownable_$13954",
+                "typeIdentifier": "t_contract$_Ownable_$13937",
                 "typeString": "contract Ownable"
               }
             },
@@ -1609,11 +1600,11 @@
         ],
         "contractDependencies": [
           12993,
-          13845,
-          13954,
-          14730,
-          14786,
-          14864
+          13828,
+          13937,
+          14713,
+          14769,
+          14847
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -1622,11 +1613,11 @@
         "linearizedBaseContracts": [
           663,
           12993,
-          13954,
-          14786,
-          14730,
-          14864,
-          13845
+          13937,
+          14769,
+          14713,
+          14847,
+          13828
         ],
         "name": "Bond",
         "nodeType": "ContractDefinition",
@@ -1694,10 +1685,10 @@
                   "name": "ERC20",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 14730,
+                  "referencedDeclaration": 14713,
                   "src": "304:5:1",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_ERC20_$14730_$",
+                    "typeIdentifier": "t_type$_t_contract$_ERC20_$14713_$",
                     "typeString": "type(contract ERC20)"
                   }
                 },
@@ -1795,7 +1786,7 @@
                       "name": "balanceOf",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 14330,
+                      "referencedDeclaration": 14313,
                       "src": "711:9:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_uint256_$",
@@ -1866,7 +1857,7 @@
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 14606,
+                      "referencedDeclaration": 14589,
                       "src": "742:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -1955,7 +1946,7 @@
                       "name": "balanceOf",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 14330,
+                      "referencedDeclaration": 14313,
                       "src": "801:9:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_uint256_$",
@@ -2174,7 +2165,7 @@
           },
           {
             "baseFunctions": [
-              14752
+              14735
             ],
             "body": {
               "id": 643,
@@ -2226,7 +2217,7 @@
                       "lValueRequested": false,
                       "memberName": "burn",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 14752,
+                      "referencedDeclaration": 14735,
                       "src": "950:10:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$returns$__$",
@@ -2337,7 +2328,7 @@
           },
           {
             "baseFunctions": [
-              14785
+              14768
             ],
             "body": {
               "id": 661,
@@ -2406,7 +2397,7 @@
                       "lValueRequested": false,
                       "memberName": "burnFrom",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 14785,
+                      "referencedDeclaration": 14768,
                       "src": "1099:14:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -2648,13 +2639,12 @@
         }
       },
       "links": {},
-      "address": "0x8563eD67Ca4E67020C6d98474844362314d7554A",
-      "transactionHash": "0x081c670ed692042a4d76b22596b56b79912be6d855ed2fcad04e55e927913857"
+      "address": "0x5ce766F3d596BE2A43d9A7A94dB2aAD8D5595D44",
+      "transactionHash": "0x944f74c528d4b96f5309d525a90a9b68f38c24b9427ed485af642de027e6a4be"
     }
   },
   "schemaVersion": "3.3.1",
-  "updatedAt": "2021-01-25T04:32:34.367Z",
-  "networkType": "ethereum",
+  "updatedAt": "2021-01-26T08:21:53.860Z",
   "devdoc": {
     "kind": "dev",
     "methods": {
