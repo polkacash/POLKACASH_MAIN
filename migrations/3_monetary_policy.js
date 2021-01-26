@@ -47,17 +47,9 @@ async function migration(deployer, network, accounts) {
   // 2. provide liquidity to POC-usdc and POS-usdc pair
   // if you don't provide liquidity to POC-usdc and POS-usdc pair after step 1 and before step 3,
   //  creating Oracle will fail with NO_RESERVES error.
-  /*
-  let unitPoc = web3.utils.toBN(50 ** 18).toString();
-  let unitBPoc = web3.utils.toBN(10000 * 10 ** 6).toString();
-
-  let unitPos = web3.utils.toBN(5 ** 18).toString();
-  let unitBPos = web3.utils.toBN(10000 * 10 ** 6).toString();
-  */
-  let unit = web3.utils.toBN(1 ** 18).toString();
-  let unitB = web3.utils.toBN(150 * 10 ** 6).toString();
-
-  let max = web3.utils.toBN(10 ** 18).muln(1000000).toString();
+  const unit = web3.utils.toBN(10 ** 18).toString();
+  const unitB = web3.utils.toBN(150 * 10 ** 6).toString();
+  const max = web3.utils.toBN(10 ** 18).muln(10000).toString();
 
   const cash = await Cash.deployed();
   const share = await Share.deployed();
@@ -91,7 +83,7 @@ async function migration(deployer, network, accounts) {
   if (network === 'mainnet') {
     startTime += 5 * DAY;
   }
-
+  /*
   if (['dev', 'het', 'rinkeby-fork', 'rinkeby', 'ganache', 'ganache-fork'].includes(network)) {
     await deployer.deploy(MockOracle);
 
@@ -114,27 +106,28 @@ async function migration(deployer, network, accounts) {
       uniswapRouter.address,
       startTime,
     );
-  }
-  //} else {
+    } else {
 
-  // 2. Deploy oracle for the pair between POC and usdc
-  await deployer.deploy(
-    Oracle,
-    uniswap.address,
-    cash.address,
-    usdc.address,
-    POOL_START_DATE
-  );
-  await deployer.deploy(
-    Treasury,
-    cash.address,
-    Bond.address,
-    Share.address,
-    Oracle.address,
-    Boardroom.address,
-    uniswapRouter.address,
-    startTime,
-  );
+    */
+
+    // 2. Deploy oracle for the pair between POC and usdc
+    await deployer.deploy(
+      Oracle,
+      uniswap.address,
+      cash.address,
+      usdc.address,
+      POOL_START_DATE
+    );
+    await deployer.deploy(
+      Treasury,
+      cash.address,
+      Bond.address,
+      Share.address,
+      Oracle.address,
+      Boardroom.address,
+      uniswapRouter.address,
+      startTime,
+    );
   //}
 }
 

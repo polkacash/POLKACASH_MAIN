@@ -15,6 +15,9 @@ const UniswapV2Factory = artifacts.require('UniswapV2Factory');
 
 module.exports = async (deployer, network, accounts) => {
   const devAddr = accounts[0]
+
+  console.log(accounts[0]);
+  console.log("######")
   const uniswapFactory = ['dev', 'het', 'rinkeby-fork', 'rinkeby', 'ganache', 'ganache-fork'].includes(network)
     ? await UniswapV2Factory.deployed()
     : await UniswapV2Factory.at(knownContracts.UniswapV2Factory[network]);

@@ -2,8 +2,8 @@ const INITIAL_POC_FOR_POOLS = 240000;
 const INITIAL_POS_FOR_POC = 600000;
 const INITIAL_POS_FOR_POS = 230000;
 
-//const POOL_START_DATE = Date.parse('2021-01-25T12:00:00Z') / 1000;
-const POOL_START_DATE = Date.parse('2021-01-18T12:00:00Z') / 1000;
+const POOL_START_DATE = Date.parse('2021-01-26T12:00:00Z') / 1000;
+//const POOL_START_DATE = Date.parse('2021-01-18T12:00:00Z') / 1000;
 
 const pocPools = [
   { contractName: 'POCDAIPool', token: 'DAI' },
