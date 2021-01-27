@@ -111,7 +111,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -130,7 +131,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -143,7 +145,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -156,7 +159,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -169,18 +173,21 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "stateMutability": "payable",
-      "type": "receive"
+      "type": "receive",
+      "payable": true
     },
     {
       "inputs": [],
       "name": "deposit",
       "outputs": [],
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "payable": true
     },
     {
       "inputs": [
@@ -206,7 +213,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -6889,12 +6897,13 @@
         }
       },
       "links": {},
-      "address": "0x19A6C7cacB87Be8568F8d3034e9e3be213Db7d15",
-      "transactionHash": "0x8df155a7860299b712b0014287992afac18950a04c18dfbdfff3213a6d6fbb62"
+      "address": "0x8bCA20908cF1f86d03343C721E45DF16D98Fb0B1",
+      "transactionHash": "0x8f26b1b4dc32a10c4bbaae2097f1f9b2b9b2eb7b6bdcb2ccabd6604aafbb74a6"
     }
   },
-  "schemaVersion": "3.3.1",
-  "updatedAt": "2021-01-26T08:21:54.301Z",
+  "schemaVersion": "3.3.2",
+  "updatedAt": "2021-01-26T12:50:16.268Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
